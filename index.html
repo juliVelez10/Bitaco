@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Bitácoras</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>Registro de Bitácoras</h1>
+    <div id="years-container">
+        <button onclick="showMonths(2024)">2024</button>
+        <button onclick="showMonths(2025)">2025</button>
+        <button onclick="mostrarBitacoras()">Ver todas las bitácoras</button>
+    </div>
+
+    <div id="months-container" style="display: none;"></div>
+    <div id="log-form-container" style="display: none;"></div>
+    <div id="contenedorBitacoras"></div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
