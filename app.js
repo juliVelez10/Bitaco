@@ -1,9 +1,10 @@
 const participants = [
     "Sebastián González", "Juan Pablo González", "Nicolás González", 
     "Javier Ocampo", "Juan José Vargas", "Sebastián Rivera", 
-    "Juliana Vélez", "Liana Martinez", "Luisa Jurado",
+    "Juliana Vélez", "Liana Martínez", "Luisa Jurado",
     "Paulina Arango", "Moises Agamez", "Juan Pablo Rengifo",
     "Hugo Villada", "Johan Zapata", "Jhonatan Gonzalez","Juan David", 
+    "Maria Fernanda", "Kevin Martínez",
 ];
 
 // Mostrar los meses según el año seleccionado
